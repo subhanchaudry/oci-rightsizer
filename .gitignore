@@ -1,0 +1,34 @@
+# Local authentication and secrets
+.oci/
+.aws/
+.ssh/
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+*.ppk
+*token*
+*credentials*
+config
+config.*
+
+# Customer inventory, pricing and reports
+reports/
+*.json
+*.csv
+*.tsv
+*.log
+
+# Python and editor artifacts
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.coverage
+htmlcov/
+.DS_Store
+.idea/
+.vscode/
